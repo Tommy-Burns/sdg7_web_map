@@ -1,0 +1,78 @@
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+
+#description {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#description h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+#description-text {
+    font-size: 14px;
+    line-height: 1.5;
+    display: block;
+}
+
+.collapsible p {
+    display: block;
+}
+
+.collapsible.collapsed p {
+    display: none;
+}
+
+.legend {
+    background: white;
+    padding: 8px;
+    line-height: 18px;
+    color: #555;
+    bottom: 20px;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-left: 8px;
+    opacity: 0.8;
+    margin-right: 12px;
+}
+
+.popup-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-container h3 {
+    margin: 0 0 6px;
+    font-size: 16px;
+}
+
+.popup-image {
+    width: 40%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+
+.popup-container p {
+    margin: 4px 0;
+    font-size: 16px;
+}
