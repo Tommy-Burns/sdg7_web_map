@@ -66,7 +66,7 @@
 }
 
 .popup-image {
-    width: 40%;
+    width: 20%;
     height: auto;
     border-radius: 6px;
     margin-bottom: 6px;
@@ -75,4 +75,35 @@
 .popup-container p {
     margin: 4px 0;
     font-size: 16px;
+}
+
+
+/* Search control */
+.search-control {
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.search-control label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #444;
+}
+
+.search-control input {
+  width: 220px;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-control .hint {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #666;
 }
